@@ -1,1 +1,6 @@
-new (require 'koa')().use((ctx)-> ctx.body = "hell").listen 80
+Koa = require('koa')
+app = new Koa()
+
+app.use((ctx)-> ctx.body = "hell").listen 80
+
+module.exports = app
