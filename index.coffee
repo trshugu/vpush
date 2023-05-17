@@ -1,0 +1,1 @@
+new (require 'koa')().use((ctx)-> ctx.body = "hell").listen 80
