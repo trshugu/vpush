@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "coffee index.coffee",
-    "build": "nodemon coffee index.coffee",
+    "build": "nodemon index.coffee",
     "deploy": "npm run build && vercel --prod"
   },
   "author": "",
