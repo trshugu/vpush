@@ -5,14 +5,15 @@
   "main": "index.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "coffee index.coffee",
-    "build": "coffee index.coffee",
+    "start": "coffee index.coffee",
+    "build": "nodemon coffee index.coffee",
     "deploy": "npm run build && vercel --prod"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "coffeescript": "^2.7.0",
-    "koa": "^2.14.2"
+    "koa": "^2.14.2",
+    "nodemon": "^2.0.22"
   }
 }
