@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "index.coffee",
-      "use": "@now/node"
+      "use": "@vercel/node"
     }
   ],
   "routes": [
