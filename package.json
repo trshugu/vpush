@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start" : "coffee index.coffee",
-    "build": "echo",
-    "deploy": "coffee index.coffee"
+    "build": "coffee index.coffee",
+    "deploy": "npm run build && vercel --prod"
   },
   "author": "",
   "license": "ISC",
